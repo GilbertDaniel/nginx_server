@@ -6,5 +6,5 @@ services:
     container_name: nginx-web-server
     ports:
       - "8080:80"
-    volumes:
-      - ./nginx/conf:/etc/nginx/conf.d
+    # volumes:
+    #   - ./nginx/conf:/etc/nginx/conf.d
